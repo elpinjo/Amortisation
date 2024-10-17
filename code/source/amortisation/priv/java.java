@@ -34,6 +34,7 @@ public final class java
 		// [i] field:0:required principle
 		// [i] field:0:required interest
 		// [i] field:0:required periodsInMonths
+		// [o] field:0:required monthlyPayments
 		IDataCursor myInputCursor = pipeline.getCursor();
 		
 		String principle = IDataUtil.getString(myInputCursor, "principle");
